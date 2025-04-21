@@ -1,6 +1,6 @@
 # FantalegheEV-ui-react
 
-This project provides a basic UI for [FantalegheEV]() project. 
+This project provides a basic UI for [FantalegheEV](https://github.com/antpas14/fantalegheEV) project, and implements openapi specification contained in [FantalegheEV-api](https://github.com/antpas14/fantaleghe-api) project.
 It allows to upload a xlsx file and display results in a table format.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
