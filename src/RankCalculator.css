@@ -1,0 +1,34 @@
+/* Style the main title */
+h1 {
+    font-size: 2em; /* Adjust size as needed */
+    margin-bottom: 1em; /* Add some space below the title */
+}
+
+/* Style the table */
+table {
+    width: 100%; /* Make the table take full width of its container */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    margin-top: 1em; /* Add some space above the table */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Add borders to cells */
+    padding: 0.5em; /* Add some padding within cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #f0f0f0; /* Light background for header */
+    font-weight: bold; /* Make header text bold */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Add a subtle background to even rows for readability */
+}
+
+/* Style the "Calculate Rank" title above the component */
+div > h2 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
