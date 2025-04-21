@@ -24,6 +24,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/fantaleghe-ui:latest, ${{ secrets.DOCKERHUB_USERNAME }}/fantaleghe-ui:${{ github.sha }}
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/fantaleghe-ui-react:latest, ${{ secrets.DOCKER_HUB_USERNAME }}/fantaleghe-ui:${{ github.sha }}
           file: Dockerfile
           context: .
