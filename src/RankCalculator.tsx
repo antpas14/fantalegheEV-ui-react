@@ -26,8 +26,9 @@ function RankCalculator() {
         setResponseList([]);
 
         try {
+            const apiBaseUrl = process.env.REACT_APP_API_BASE_URL;
             const configuration = new Configuration({
-                basePath: 'http://localhost:8080',
+                basePath: apiBaseUrl,
             });
             const calculateApi = new CalculateApi(configuration);
 
