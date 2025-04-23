@@ -27,4 +27,6 @@ jobs:
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/fantaleghe-ui-react:latest, ${{ secrets.DOCKER_HUB_USERNAME }}/fantaleghe-ui-react:${{ github.sha }}
           file: Dockerfile
           context: .
-          build-args: GH_PACKAGES_TOKEN=${{ secrets.GH_PACKAGES_TOKEN }}
+          build-args: |
+            GH_PACKAGES_TOKEN=${{ secrets.GH_PACKAGES_TOKEN }}
+            REACT_APP_API_BASE_URL="/api"
